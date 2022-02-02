@@ -1,0 +1,16 @@
+{
+  "name": "employee-review-project",
+  "version": "1.0.0",
+  "description": "a employee performance review system build with Node.js, Express, MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aditya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
