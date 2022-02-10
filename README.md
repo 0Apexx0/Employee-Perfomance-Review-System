@@ -18,9 +18,9 @@ A performance review system that allow to give regards.
 - npm start
 
 ## note :
--for login in admin panel , there is prebuild database object i.e 
+- for login in admin panel , there is prebuild database object i.e 
 
--email : admin@admin.com,
+- email : admin@admin.com,
   password : admin,
   name : Admin .
 
