@@ -52,24 +52,24 @@ app.listen(port , (err)=>{
 })
 
 
-// // creating admin in the database
-// const Admin = require('./model/user');
-// createAdmin();
+// creating admin in the database
+const Admin = require('./model/user');
+createAdmin();
 
-// async function createAdmin(){
-//     let admin = await Admin.findOneAndRemove({email : 'admin@admin.com'} );
-//     Admin.create({
-//         name : 'Admin',
-//         isAdmin: true,
-//         email : 'admin@admin.com',
-//         password : 'admin',
-//       });
-//       if(!admin){
-//         console.log('admin  created..!  | email : admin@admin.com , password : admin |');
+async function createAdmin(){
+    let admin = await Admin.findOneAndRemove({email : 'admin@admin.com'} );
+    Admin.create({
+        name : 'Admin',
+        isAdmin: true,
+        email : 'admin@admin.com',
+        password : 'admin',
+      });
+      if(!admin){
+        console.log('admin  created..!  | email : admin@admin.com , password : admin |');
 
-//       }else{
-//         console.log('| email : admin@admin.com , password : admin | ...... to logging in admin panel');
-//       }
-// }
+      }else{
+        console.log('| email : admin@admin.com , password : admin | ...... to logging in admin panel');
+      }
+}
 
 
