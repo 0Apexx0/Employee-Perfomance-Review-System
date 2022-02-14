@@ -4,7 +4,7 @@
   "description": "a employee performance review system build with Node.js, Express, MongoDB",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aditya",
@@ -15,9 +15,11 @@
     "express-ejs-layouts": "^2.5.1",
     "express-session": "^1.17.2",
     "mongoose": "^6.1.10",
-    "nodemon": "^2.0.15",
     "passport": "^0.5.2",
     "passport-local": "^1.0.0",
     "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

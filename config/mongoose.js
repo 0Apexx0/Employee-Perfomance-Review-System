@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-
-mongoose.connect('mongodb://localhost/Employee_Review_System_DB');
+const dbUrl = 'mongodb://localhost/Employee_Review_System_DB';
+mongoose.connect( dbUrl , {useNewUrlParser: true});
 
 const db = mongoose.connection;
 
