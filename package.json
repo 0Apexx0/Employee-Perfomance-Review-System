@@ -4,7 +4,7 @@
   "description": "a employee performance review system build with Node.js, Express, MongoDB",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aditya",
